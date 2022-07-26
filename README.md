@@ -23,8 +23,8 @@ imports:
 4. Configure the api keys Add the follow line in config/services.yml
 ```bash
 parameters:
-    api_key: "api_zjkKCEwaaHbaSVQD3KehGF9ZQ9xku9i9FBS6WeSfA4fNPI986IObCEoYmgtu0p33"
-    secret_key: "secret_9c690947ee95f254f4b0556ce9fb2a64a0e48a9d74a580552633106d4df9189e"
+    api_key: "API_KEY"
+    secret_key: "SECRET_KEY"
 ```
 
 5. Process payment and redirection to payment page
