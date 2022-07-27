@@ -1,0 +1,11 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  chargily.controller:
+    class: Chargily\SymfonyBundle\Controller\ChargilyEpaySymfonyController
+    tags: [ controller.service_arguments ]
+    arguments:
+      - '@service_container'
